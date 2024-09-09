@@ -1,0 +1,183 @@
+#container {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25%;
+  }
+  
+  #title > h1 > img {
+    width: 50%;
+    height: 200px;
+  }
+  
+  #title > h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    white-space: nowrap;
+    font-size: 3em;
+    color: rgba(32, 39, 79, 1);
+    text-shadow: 0px 0px 3px gray;
+  }
+  
+  #search{
+    width: 80%;
+    height: 60px;
+    margin: 6% auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+  }
+  
+  #search > input{
+    font-size: 1.5em;
+    width: 30%;
+    height: auto;
+    flex: 1;
+    padding: 1%;
+    padding-left: 3%;
+    border-radius: 30px;
+    border: none;
+  }
+
+  #search > button {
+    height: auto;
+    font-size: 1.5em;
+    padding: 1%;
+    padding-right: 5%;
+    background-color: white;
+    width: 10%;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  #search > button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  #site {
+    display: flex;
+    align-self: center;
+    padding: 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #site > .list{
+    font-size: 1.5em;
+  }
+  
+  #site > .count {
+    font-size: 1em;
+    align-self: center;
+  }
+ 
+ .listcard{
+    margin: 2% 5%;
+    padding: 1.5% 4%;
+    padding-top: 1.5%;
+    border-radius: 30px;
+    background-color: rgba(81, 80, 118, 0.1);
+    box-shadow: 5px 5px 10px gray;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .listTitle{
+  font-size: 1.5em
+ }
+
+ .arrow{
+  position: absolute;
+  right: 5%;
+}
+
+  .detailcards {
+    border-top: 1px solid grey;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .detailcard{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardlabel{
+    font-size: 1.5em;
+    font-weight:bolder;
+  }
+  
+  .cardValue{
+    font-size: 1.3em;
+    overflow-wrap:anywhere;
+    /* text-align: justify; */
+  }
+
+.directBtn {
+  width: 100%;
+  text-align: center;
+  padding: 1% 2%;
+  margin: 0 auto;
+  background-color: rgba(32, 39, 79, 1);
+  color: lightgray;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  font-size: 1em;
+}
+
+.directBtn:hover {
+  background-color: lightgray;
+  color : rgba(32, 39, 79, 1);
+}
+  
+.listcard:hover{
+  background-color: lightgray;
+}
+  
+#more {
+  margin: 5% auto;
+  margin-bottom: 30%;
+  text-align: center;
+}
+
+  #more > button {
+    text-align: center;
+    font-size: 2em;
+    width: 5em;
+    padding: 1% 2%;
+    color: white;
+    background-color: rgba(32, 39, 79, 1);
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 30px;
+    text-wrap: nowrap;
+  }
+  
+  #more button:hover {
+    background-color: rgba(81, 80, 118, 1);
+    color: white;
+  }
+  
+  .noData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+  }
+
+  
